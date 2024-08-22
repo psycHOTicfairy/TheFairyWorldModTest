@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "thefairyworldmod:item/pineapple_skin_chestplate"
+  }
+}
