@@ -30,7 +30,7 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST)));
 
     public static final RegistryObject<Block> TINY_BED = registerBlock("tiny_bed",
-            () -> new TinyBedBlock(DyeColor.RED, BlockBehaviour.Properties.copy(Blocks.BLACK_BED).noOcclusion()));
+            () -> new TinyBedBlock(DyeColor.RED, BlockBehaviour.Properties.copy(Blocks.RED_BED).noOcclusion()));
 
 
     //if I want to add ores vvvvv this is the code

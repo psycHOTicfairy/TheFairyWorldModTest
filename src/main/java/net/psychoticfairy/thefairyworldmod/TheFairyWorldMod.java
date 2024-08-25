@@ -2,6 +2,7 @@ package net.psychoticfairy.thefairyworldmod;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -17,6 +18,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.psychoticfairy.thefairyworldmod.block.ModBlocks;
 import net.psychoticfairy.thefairyworldmod.block.entities.ModBlockEntities;
+import net.psychoticfairy.thefairyworldmod.entity.ModEntities;
+import net.psychoticfairy.thefairyworldmod.entity.client.MermanRenderer;
 import net.psychoticfairy.thefairyworldmod.item.ModCreativeModeTabs;
 import net.psychoticfairy.thefairyworldmod.item.ModItems;
 import org.slf4j.Logger;
@@ -80,7 +83,8 @@ public class TheFairyWorldMod
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-            // Some client setup code
+            EntityRenderers.register(ModEntities.MERMAN.get(), MermanRenderer::new);
+        // Some client setup code
             LOGGER.info("HELLO FROM CLIENT SETUP");
             LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
         }

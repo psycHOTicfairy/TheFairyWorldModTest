@@ -1,15 +1,21 @@
 {
   "item.thefairyworldmod.pineapple_skin": "Pineapple Skin",
   "item.thefairyworldmod.pineapple": "Pineapple",
-  "item.thefairyworldmod.pineapple_skin_chestplate": "Pineapple Skin Chestplate",
+
   "item.thefairyworldmod.pearl": "Pearl",
   "item.thefairyworldmod.peridotite": "Peridotite",
   "item.thefairyworldmod.magic_wand": "Magic Wand",
+
+
+  "item.thefairyworldmod.pineapple_skin_helmet": "Pineapple Skin Helmet",
+  "item.thefairyworldmod.pineapple_skin_chestplate": "Pineapple Skin Chestplate",
+  "item.thefairyworldmod.pineapple_skin_leggings": "Pineapple Skin Leggings",
+  "item.thefairyworldmod.pineapple_skin_boots": "Pineapple Skin Boots",
 
   "creativetab.the_fairy_world_tab": "The Fairy World Tab",
 
   "block.thefairyworldmod.fairy_altar": "Fairy Altar",
   "block.thefairyworldmod.peridotite_block": "Peridotite",
 
-  "block.thefairyworldmod.tiny_bed": "tiny_bed"
+  "block.thefairyworldmod.tiny_bed": "Tiny Bed"
 }

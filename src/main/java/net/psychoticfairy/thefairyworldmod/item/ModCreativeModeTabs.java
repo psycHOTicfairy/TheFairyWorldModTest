@@ -25,6 +25,11 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModItems.PINEAPPLE.get());
 
+                        pOutput.accept(ModItems.PINEAPPLE_SKIN_HELMET.get());
+                        pOutput.accept(ModItems.PINEAPPLE_SKIN_CHESTPLATE.get());
+                        pOutput.accept(ModItems.PINEAPPLE_SKIN_LEGGINGS.get());
+                        pOutput.accept(ModItems.PINEAPPLE_SKIN_BOOTS.get());
+
                         pOutput.accept(ModBlocks.FAIRY_ALTAR.get());
                         pOutput.accept(ModBlocks.PERIDOTITE_BLOCK.get());
 

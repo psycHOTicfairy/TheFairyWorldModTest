@@ -17,8 +17,6 @@ public class ModItems {
 
     public static final RegistryObject<Item> PINEAPPLE_SKIN = ITEMS.register("pineapple_skin",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> PINEAPPLE_SKIN_CHESTPLATE = ITEMS.register("pineapple_skin_chestplate",
-            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> PINEAPPLE = ITEMS.register("pineapple",
             () -> new Item(new Item.Properties().food(ModFoods.PINEAPPLE)));
     public static final RegistryObject<Item> PERIDOTITE = ITEMS.register("peridotite",
@@ -27,6 +25,16 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MAGIC_WAND = ITEMS.register("magic_wand",
             () -> new WandItem(new Item.Properties().durability(500)));
+
+    public static final RegistryObject<Item> PINEAPPLE_SKIN_HELMET = ITEMS.register("pineapple_skin_helmet",
+            () -> new ArmorItem(ModArmorMaterials.PINEAPPLE_SKIN, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> PINEAPPLE_SKIN_CHESTPLATE = ITEMS.register("pineapple_skin_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.PINEAPPLE_SKIN, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> PINEAPPLE_SKIN_LEGGINGS = ITEMS.register("pineapple_skin_leggings",
+            () -> new ArmorItem(ModArmorMaterials.PINEAPPLE_SKIN, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> PINEAPPLE_SKIN_BOOTS = ITEMS.register("pineapple_skin_boots",
+            () -> new ArmorItem(ModArmorMaterials.PINEAPPLE_SKIN, ArmorItem.Type.BOOTS, new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

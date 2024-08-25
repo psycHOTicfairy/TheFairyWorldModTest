@@ -19,6 +19,7 @@ public class ModBlockEntities {
                             ModBlocks.TINY_BED.get()).build(null));
 
 
+
     public static void register(IEventBus eventBus) {
         BLOCK_ENTITIES.register(eventBus);
     }
